@@ -1,0 +1,465 @@
+{
+    "name": "John L. Dahl",
+    "title": "Associate Professor",
+    "contacts": {
+        "organization": "University of Minnesota Duluth",
+        "department": "Department of Biology",
+        "address": "207 SSB, 1035 Kirby Drive, Duluth, MN, 55812",
+        "phone": "(218) 726-6614",
+        "email": "jldahl@d.umn.edu"
+    },
+    "education": {
+        "postDoc": {
+            "degree": "Fellowship",
+            "field": "",
+            "startYear": "1997",
+            "endYear": "2000",
+            "university": "University of Arizona",
+            "location": "Tucson, AZ"
+        },
+        "PhD": {
+            "degree": "Ph.D.",
+            "field": "Microbiology",
+            "startYear": "",
+            "endYear": "1997",
+            "university": "University of Virginia",
+            "location": "Charlottesville, VA"
+        },
+        "Masters": {
+            "degree": "",
+            "field": "",
+            "startYear": "",
+            "endYear": "",
+            "university": "",
+            "location": ""
+        },
+        "Bachelors": {
+            "degree": "B.S.",
+            "field": "Biology",
+            "startYear": "",
+            "endYear": "1988",
+            "university": "University of Washington",
+            "location": "Seattle, WA"
+        }
+    },
+    "experiences": [
+        {
+            "title": "Associate Professor",
+            "startYear": "2008",
+            "endYear": "Present",
+            "organization": "University of Minnesota Duluth",
+            "location": "Duluth, MN"
+        },
+        {
+            "title": "Paraprofessional",
+            "startYear": "2024",
+            "endYear": "2024",
+            "organization": "Congdon Elementary School",
+            "location": "Duluth, MN"
+        },
+        {
+            "title": "Associate Professor",
+            "startYear": "2001",
+            "endYear": "2008",
+            "organization": "Washington State University",
+            "location": "Seattle, WA"
+        }
+    ],
+    "publications": [
+        {
+            "authors": "Dahl, J.L., W. Gatlin, M.P. Tran, and C.S. Sheik",
+            "year": "2021",
+            "title": "Mycolicibacterium nix sp. nov is a novel species isolated from the Big Bog of northern Minnesota",
+            "journal": "International Journal of Systematic and Evolutionary Microbiology",
+            "isbn": "",
+            "doi": "10.1099/ijsem.0.004438",
+            "link": "https://doi.org/10.1099/ijsem.0.004438"
+        },
+        {
+            "authors": "Dahl, J.L.",
+            "year": "2019",
+            "title": "Darwin’s Second Voyage: an Evolutionary Odyssey",
+            "journal": "KDP Publishing",
+            "isbn": "ISBN-10: 1072332221",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., and W. Gatlin III",
+            "year": "2018",
+            "title": "A Microbiology Teaching Lab: Using Koch’s Postulates to Determine the Cause of “Peep Pox” in Marshmallow Peeps",
+            "journal": "American Biology Teacher",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Tran, M.P., and J.L. Dahl",
+            "year": "2016",
+            "title": "Mycobacterium sarraceniae sp. nov. and Mycobacterium helvum sp. nov. are two species isolated from the pitcher plant Sarracenia purpurea",
+            "journal": "International Journal of Systematic and Evolutionary Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Kiefer, B., and J.L. Dahl",
+            "year": "2015",
+            "title": "Disruption of Mycobacterium smegmatis Biofilms Using Bacteriophages Alone or in Combination with Mechanical Stress",
+            "journal": "Advances in Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Niki, M., Y. Tateishi, Y. Ozeki, T. Kirikae, A. Lewin, Y. Inoue, M. Matsumoto, J.L. Dahl, H. Ogura, K. Kobayashi, and S. Matsumoto",
+            "year": "2012",
+            "title": "A Novel Mechanism of Growth Phase-dependent Tolerance to Isoniazid in Mycobacteria",
+            "journal": "Journal of Biological Chemistry",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Hannigan, G.D., B. Krivogorsky, D. Fordice, and J.L. Dahl",
+            "year": "2013",
+            "title": "Mycobacterium minnesotii sp. nov., a photochromogenic bacterium isolated from sphagnum peat bogs is closely related to Mycobacterium arupense",
+            "journal": "International Journal of Systematic and Evolutionary Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., C.H. Urlich, and T.L. Kroft",
+            "year": "2011",
+            "title": "Role of phase variation in the resistance of Myxococcus xanthus fruiting bodies to Caenorhabditis elegans predation",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., and D. Fordice",
+            "year": "2011",
+            "title": "Small acid-soluble proteins with intrinsic disorder are required for UV resistance in Myxococcus xanthus spores",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., and D. Lau Bonilla",
+            "year": "2011",
+            "title": "The wag31 gene of Mycobacterium tuberculosis is positively regulated by the stringent response",
+            "journal": "FEMS Microbiology Letters",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Whiteford, D.C., J.J. Klingelhoets, M.H. Bambenek, and J.L. Dahl",
+            "year": "2011",
+            "title": "Deletion of the histone-like protein (Hlp) from Mycobacterium smegmatis results in increased sensitivity to UV exposure, freezing and isoniazid",
+            "journal": "Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Arora, K., D. Lau-Bonilla, D.C. Whiteford, E.A. Shelden, C.M. Davitt, and J.L. Dahl",
+            "year": "2008",
+            "title": "Inactivation of lsr2 results in a hypermotile phenotype in Mycobacterium smegmatis",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Park, K.T., J.L. Dahl, J.P. Bannantine, R.G. Baretta, J. Ahn, A.J. Allen, M.J. Hamilton, and W.C. Davis",
+            "year": "2007",
+            "title": "Demonstration of allelic exchange in the slow growing Mycobacterium avium subsp. paratuberculosis and generation of deletion mutants at the pknG, relA, and lsr2 loci",
+            "journal": "Applied and Environmental Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J., and P. Mixter",
+            "year": "2007",
+            "title": "“Night Gallery:” an innovative multimedia strategy for delivering a general microbiology lecture",
+            "journal": "American Biology Teacher",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., F.K. Tengra, D. Dutton, J. Yan, T.M. Andacht, L. Coyne, V. Windell, and A.G. Garza",
+            "year": "2007",
+            "title": "Identification of major sporulation proteins of Myxococcus xanthus using a proteomic approach",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Samuel, L.P., C-H. Song, J. Wei, E.A. Roberts, J.L. Dahl, C.E. Barry III, E.-K. Jo, and R.L. Friedman",
+            "year": "2007",
+            "title": "Expression, production, and release of the Eis protein by Mycobacterium tuberculosis during infection of macrophages and its effect on cytokine secretion",
+            "journal": "Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Tengra, F.K., J.L. Dahl, D. Dutton, N.B. Caberoy, L. Coyne, and A.G. Garza",
+            "year": "2006",
+            "title": "CbgA, a protein involved in cortex formation and stress resistance in Myxococcus xanthus spores",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L.",
+            "year": "2005",
+            "title": "Scanning electron microscopy analysis of aged Mycobacterium tuberculosis cells",
+            "journal": "Canadian Journal of Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., K. Arora, H.I. Boshoff, D.C. Whiteford, S.A. Pacheco, O.J. Walsh, D. Lau-Bonilla, W.B. Davis, and A.G. Garza",
+            "year": "2005",
+            "title": "The relA homolog of Mycobacterium smegmatis affects cell appearance, viability, and gene expression",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Koo, H.C., Y.H. Park, M.J. Hamilton, G.M. Barrington, C.J. Davies, J.B. Kim, J.L. Dahl, W.R. Waters, and W.C. Davis",
+            "year": "2004",
+            "title": "Analysis of the immune response to Mycobacterium avium subsp. paratuberculosis in experimentally infected calves",
+            "journal": "Infection and Immunity",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L.",
+            "year": "2004",
+            "title": "Electron microscopy analysis of Mycobacterium tuberculosis cell division",
+            "journal": "FEMS Microbiology Letters",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., C.N. Kraus, H.I. Boshoff, B. Doan, K. Foley, D. Avarbock, G. Kaplan, V. Mizrahi, H. Rubin, and C.E. Barry III",
+            "year": "2003",
+            "title": "The role of RelMtb-mediated adaptation to stationary phase in long-term persistence of Mycobacterium tuberculosis in mice",
+            "journal": "Proceedings of the National Academy of Sciences of the USA",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., J. Wei, J.W. Moulder, S. Laal, and R.L. Friedman",
+            "year": "2001",
+            "title": "Subcellular localization of the intracellular survival-enhancing Eis protein of Mycobacterium tuberculosis",
+            "journal": "Infection and Immunity",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Wei, J., J.L. Dahl, J.W. Moulder, E.A. Roberts, P. O’Gaora, D. Young, and R.L. Friedman",
+            "year": "2000",
+            "title": "Identification of a Mycobacterium tuberculosis gene that enhances mycobacterial survival in macrophages",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Olekhnovich, I.N., J.L. Dahl, and R.J. Kadner",
+            "year": "1999",
+            "title": "Separate contributions of UhpA and CAP to activation of transcription of the uhpT promoter of Escherichia coli",
+            "journal": "Journal of Molecular Biology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Dahl, J.L., B.Y. Wei, and R.J. Kadner",
+            "year": "1997",
+            "title": "Protein phosphorylation affects binding of the Escherichia coli transcription activator UhpA to the uhpT promoter",
+            "journal": "Journal of Biological Chemistry",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Merkel, T.J., J.L. Dahl, R.H. Ebright, and R.J. Kadner",
+            "year": "1995",
+            "title": "Transcription activation at the Escherichia coli uhpT promoter by the catabolite gene activator protein",
+            "journal": "Journal of Bacteriology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        },
+        {
+            "authors": "Kadner, R.J., M.D. Island, J.L. Dahl, and C.A. Webber",
+            "year": "1994",
+            "title": "A transmembrane signaling complex controls transcription of the Uhp sugar phosphate transport system",
+            "journal": "Research in Microbiology",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        }
+    ],
+    "courses": [
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "BIOL 4504",
+        "title": "Biology of SARS-CoV-2 and COVID-19",
+        "description": "In-depth analysis of the COVID-19 pandemic including the following: molecular analysis of the causative agent SARS-CoV-2, clinical courses and epidemiology of the disease, population prevention and treatment of COVID-19, modeling and international health regulations regarding the pandemic, and comparisons of how different countries have addressed the pandemic.",
+        "resources": ""
+        },
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "BIOL 3512",
+        "title": "HIV and AIDS",
+        "description": "A comprehensive overview of the current AIDS pandemic ranging from molecular and biomedical aspects to societal and psychological aspects. Molecular biology of HIV, the immune system's response, diagnosis, prevention, treatment, and social implications are discussed.",
+        "resources": ""
+        },
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "BIOL 3502",
+        "title": "General Microbiology",
+        "description": "Morphology of microorganisms; growth; environmental and physiological types; physical and chemical control; taxonomy; viruses; genetics of bacteria; practical applications, including medical, water, soil, and food microbiology.",
+        "resources": ""
+        },
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "BIOL 4511",
+        "title": "Medical Microbiology",
+        "description": "Overview of the dynamic relationships between human hosts and pathogenic microbes. Topics include the human immune system, antimicrobial therapy, pathogenic bacteria, viruses, and pathogenic eukaryotic species.",
+        "resources": ""
+        },
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "BIOL 5232",
+        "title": "Molecular Biology Laboratory",
+        "description": "Regulation of gene expression in prokaryote explored through the use of recombinant DNA technologies.",
+        "resources": ""
+        },
+        {
+        "organization": "University of Minnesota Duluth",
+        "code": "HON 3095",
+        "title": "Global Infectious Diseases: Studies in Science and Society",
+        "description": "In this course we will examine microbiology, epidemiology, health management, and social impacts of several major infectious diseases from historical and global perspectives. Topics include influenza, HIV/AIDS, cholera, tuberculosis, malaria, and syphilis as well as others.",
+        "resources": ""
+        },
+        {
+        "organization": "Congdon Elementary School",
+        "code": "",
+        "title": "Paraprofessional in Special Education Classroom",
+        "description": "Worked as a paraprofessional in a special education classroom with students ranging from kindergarten through fifth grade.",
+        "resources": ""
+        },
+        {
+        "organization": "Semester at Sea",
+        "code": "BIOL 1559-101",
+        "title": "Modern Evolutionary Theory",
+        "description": "This course will explore the history of evolutionary theory, review scientific evidence for evolution—particularly focusing upon the explosion of insights provided by Molecular Biology in the past 20 years, discuss social implications of the theory of evolution, and examine modern challenges like infectious diseases, genetic modification of crops, and climate changes that are particularly interesting from the perspective of evolution.",
+        "resources": ""
+        },
+        {
+        "organization": "Semester at Sea",
+        "code": "SEMS 2500-101",
+        "title": "Introduction to Public Health",
+        "description": "This course introduces students to Public Health as a population-based approach to preventing disease and prolonging human health through community action. An emphasis will be made on how public health knowledge plays a vital role in daily lives, and comparisons will be made between the public health systems of the U.S., other developed countries, and of developing countries.",
+        "resources": ""
+        },
+        {
+        "organization": "Semester at Sea",
+        "code": "BIOL 3559",
+        "title": "Global Infectious Diseases",
+        "description": "In this course we will look at the microbiology, epidemiology, management, and social impacts of six major human infectious diseases: influenza, HIV/AIDS, cholera, tuberculosis, malaria, and human helminthic infections.",
+        "resources": ""
+        },
+        {
+        "organization": "Washington State University",
+        "code": "MBIOS 302",
+        "title": "General Microbiology",
+        "description": "Structure, function, nutrition, physiology, and genetics of microbes and their application to immunology, pathology, microbial diversity, and environmental microbiology.",
+        "resources": ""
+        },
+        {
+        "organization": "Washington State University",
+        "code": "MBIOS 340",
+        "title": "Medical Microbiology",
+        "description": "Microbial pathogens and their relationships to disease.",
+        "resources": ""
+        },
+        {
+        "organization": "Washington State University",
+        "code": "MBIOS 404",
+        "title": "Molecular Genetics",
+        "description": "Introduction to prokaryotic and eukaryotic genome organization and gene expression, modern molecular techniques, experimental approaches, genome and gene analyses.",
+        "resources": ""
+        },
+        {
+        "organization": "Washington State University",
+        "code": "MBIOS 504",
+        "title": "Molecular Biology II",
+        "description": "Gene expression and regulation in prokaryotes and eukaryotes, including transcription, RNA processing, and translation; chromatin structure; DNA repair.",
+        "resources": ""
+        },
+        {
+        "organization": "Pima Community College",
+        "code": "BIO 100",
+        "title": "General Biology and Laboratory",
+        "description": "",
+        "resources": ""
+        },
+        {
+        "organization": "Pima Community College",
+        "code": "BIO 160",
+        "title": "Introduction to Human Anatomy and Physiology and Laboratory",
+        "description": "",
+        "resources": ""
+        },
+        {
+        "organization": "Pima Community College",
+        "code": "BIO 205",
+        "title": "Microbiology and Laboratory",
+        "description": "",
+        "resources": ""
+        },
+        {
+        "organization": "Piedmont Virginia Community College",
+        "code": "BIOL 101 and 102",
+        "title": "General Biology Laboratory",
+        "description": "",
+        "resources": ""
+        },
+        {
+        "organization": "University of Virginia",
+        "code": "Teaching Assistant",
+        "title": "Medical Microbiology for Second-Year Medical Students",
+        "description": "",
+        "resources": ""
+        },
+        {
+        "organization": "U.S. Peace Corps, St. Vincent and the Grenadines",
+        "code": "",
+        "title": "General Science and Biology for Middle School and High School Students",
+        "description": "",
+        "resources": ""
+        }
+    ]
+}
+
