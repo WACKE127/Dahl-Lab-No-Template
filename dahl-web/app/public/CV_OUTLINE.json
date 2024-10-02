@@ -1,0 +1,74 @@
+{
+    "name": "",
+    "title": "",
+    "contacts": {
+        "organization": "",
+        "department": "",
+        "address": "",
+        "phone": "",
+        "email": ""
+    },
+    "education": {
+        "postDoc": {
+            "degree": "",
+            "field": "",
+            "startYear": "",
+            "endYear": "",
+            "university": "",
+            "location": ""
+        },
+        "PhD": {
+            "degree": "",
+            "field": "",
+            "startYear": "",
+            "endYear": "",
+            "university": "",
+            "location": ""
+        },
+        "Masters": {
+            "degree": "",
+            "field": "",
+            "startYear": "",
+            "endYear": "",
+            "university": "",
+            "location": ""
+        },
+        "Bachelors": {
+            "degree": "",
+            "field": "",
+            "startYear": "",
+            "endYear": "",
+            "university": "",
+            "location": ""
+        }
+    },
+    "experiences": [
+        {
+            "title": "",
+            "startYear": "",
+            "endYear": "",
+            "organization": "",
+            "location": ""
+        }
+    ],
+    "publications": [
+        {
+            "authors": "",
+            "year": "",
+            "title": "",
+            "journal": "",
+            "isbn": "",
+            "doi": "",
+            "link": ""
+        }
+    ],
+    "courses": [
+        {
+            "organization": "",
+            "code": "",
+            "title": "",
+            "description": "",
+            "resources": ""
+        }
+    ]
+}
