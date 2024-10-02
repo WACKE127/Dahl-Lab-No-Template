@@ -56,7 +56,7 @@ export interface CV {
     courses: courses[];
   }
 
-import cvFile from "../public/Dahl-CV.json";
+import cvFile from "../../public/Dahl-cv.json";
 
 const cv: CV = cvFile as CV;
 
