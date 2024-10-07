@@ -1,5 +1,6 @@
 import Image from "next/image";
-import cv from "../lib/importCV";
+import cv from "../app/lib/importCV";
+import styles from "../styles/images.module.css"
 
 export default function Home() {
   return (
@@ -9,10 +10,13 @@ export default function Home() {
           className="dark:invert"
           src="/imgs/Big_Bog.png"
           alt="Big Bog"
-          width={180}
-          height={38}
+          width={1920}
+          height={100}
           priority
         />
+        </main>
+      
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
           src="/imgs/S1_P2.jpg"

@@ -1,26 +1,31 @@
 .header {
     background-color: #000000;
     padding: 15px 0;
+    z-index: 1000;
 }
   
 .nav {
     display: flex;
     justify-content: center;
+    z-index: 1000;
 }
   
 .navList {
     list-style: none;
     display: flex;
     gap: 30px;
+    z-index: 1000;
 }
   
 .navList li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    z-index: 1000;
 }
   
 .navList li a:hover {
     text-decoration: underline;
+    z-index: 1000;
 }
   
