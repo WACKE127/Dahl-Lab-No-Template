@@ -11,6 +11,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  @apply px-5 py-1 p-0;
   }
 }
 

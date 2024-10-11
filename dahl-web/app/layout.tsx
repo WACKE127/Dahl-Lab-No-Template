@@ -9,6 +9,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -29,6 +30,9 @@ export default function RootLayout({
     <html 
     lang="en"
     className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <head>
+          <link rel="icon" href="/imgs/icon.ico" sizes="any" />
+        </head>
       <body>
         <h1>
           <Webheader />
