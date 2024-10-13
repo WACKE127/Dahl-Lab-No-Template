@@ -3,34 +3,40 @@ import cv from "../app/lib/importCV";
 
 export default function Home() {
   return (
-    <main className="flex flex-col grid grid-rows-[10px-1fr_10px] justify-items-center content-center w-full p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] object-contain text-wrap">
-      <div className="row-start-1 row-end-2 items-start w-auto h-auto max-w-[1344px]">
-        <Image
-          src="/imgs/Big_Bog.png"
+    <div className="grid grid-rows-[10px-1fr_10px] justify-items-center content-center w-full p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap">
+      <div className="object-contain row-start-1 row-end-2 items-start w-full h-auto max-w-[1344px] min-w-[200px]">
+        <div className="object-contain flex w-auto h-auto min-w-[200px]">
+          <Image
+          className="bg-blend-darken"
+          src="/imgs/Forest.webp"
           alt="Big Bog"
           width={1344}
           height={756}
           priority
-        />
+          />
         </div>
+      </div>
       
-      <div className="row-start-1 w-auto h-auto max-w-[400px] gap-8">
-        <Image
-          src="/imgs/S10_P2.jpg"
-          alt="Small Image"
-          width={196}
-          height={344}
-          priority
-        />
-        <h2>
-          Welcome to Professor John L. Dahl’s lab at the University of Minnesota Duluth!
-          <p>
+      <div className="flex flex-col row-start-1 w-auto h-auto max-w-[400px] gap-8 items-center">
+        <div className = "text-center">
+          <h1 className = "font-semibold">
+            Welcome to Professor John L. Dahl’s lab at the University of Minnesota Duluth!
+          </h1>
           Our research delves deep into microbiology, focusing on groundbreaking studies
           like the discovery of new Mycobacterium species and innovative methods for biofilm disruption.
-          </p>
-        </h2>
+        </div>
+        <div>
+          <Image 
+          src="/imgs/S10_P2.jpg"
+          alt="Small Image"
+          width={400}
+          height={700}
+          priority
+          />
+        </div>
+        
       </div>
 
-    </main>
+    </div>
   );
 }

@@ -33,14 +33,14 @@ export default function RootLayout({
       <head>
           <link rel="icon" href="/imgs/icon.ico" sizes="any" />
         </head>
-      <body>
-        <h1>
-          <Webheader />
-        </h1>
-        <div>
-          {children}
-        </div>
-      </body>
+        <body>
+          <Webheader/>
+          <h1>
+          </h1>
+          <div>
+            {children}
+          </div>
+        </body>
     </html>
   );
 }
