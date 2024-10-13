@@ -1,19 +1,22 @@
 import Image from "next/image";
+import Link from "next/link";
 import cv from "../app/lib/importCV";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[10px-1fr_10px] justify-items-center content-center w-full p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap">
-      <div className="object-contain row-start-1 row-end-2 items-start w-full h-auto max-w-[1344px] min-w-[200px]">
+      <div className="object-contain row-start-1 row-end-2 items-start w-full h-auto max-w-[1344px] min-w-[854px]">
         <div className="object-contain flex w-auto h-auto min-w-[200px]">
-          <Image
-          className="bg-blend-darken"
-          src="/imgs/Forest.webp"
-          alt="Big Bog"
-          width={1344}
-          height={756}
-          priority
-          />
+          <Link href={'/p/research'}>
+            <Image
+              src="/imgs/Forest.webp"
+              alt="Big Bog"
+              width={1344}
+              height={756}
+              quality={100}
+              priority
+              />
+          </Link>
         </div>
       </div>
       
@@ -26,13 +29,13 @@ export default function Home() {
           like the discovery of new Mycobacterium species and innovative methods for biofilm disruption.
         </div>
         <div>
-          <Image 
-          src="/imgs/S10_P2.jpg"
-          alt="Small Image"
-          width={400}
-          height={700}
-          priority
-          />
+            <Image 
+            src="/imgs/S10_P2.jpg"
+            alt="Small Image"
+            width={400}
+            height={700}
+            priority
+            />
         </div>
         
       </div>

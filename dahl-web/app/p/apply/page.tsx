@@ -15,7 +15,7 @@ export default function Home() {
         />
         <Image
           className="dark:invert"
-          src="/imgs/S10_P2.jpg"
+          src="/imgs/S1_P2.jpg"
           alt="Next.js logo"
           width={180}
           height={38}
