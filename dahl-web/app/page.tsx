@@ -4,22 +4,21 @@ import cv from "../app/lib/importCV";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows justify-items-center content-center w-full h-auto p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap">
-{/* Main Image */}
-        <div className="object-contain flex w-auto h-auto min-w-[200px] row-start-1 row-end-2">
-          <Link href={'/p/research'}>
-            <Image
-              src="/imgs/Forest.webp"
-              alt="Big Bog"
-              width={1344}
-              height={756}
-              quality={100}
-              priority
-              />
-          </Link>
-        </div>
+// Grid 1
+    <div className="grid grid-rows-2 justify-items-center content-center w-full h-full max-h-[177vh] p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap object-contain">
+{/* Main Image */} 
+        <Link href={'/p/research'} className="row-start-1 object-contain">
+          <Image
+            src="/imgs/Forest.webp"
+            alt="Big Bog"
+            width={1344}
+            height={756}
+            quality={100}
+            priority
+            />
+        </Link>
 {/* Right Image */}
-      <div className="flex flex-col row-start-1 w-auto h-auto max-w-[400px] min-w-[100px] gap-8 items-center">
+      <div className="col-start-2 row-end-2 flex-row w-auto h-auto max-w-[400px] min-w-[100px] gap-8 items-center overflow-y-auto">
         <div className = "text-center">
           <h1 className = "font-semibold">
             Welcome to Professor John L. Dahl’s lab at the University of Minnesota Duluth!
@@ -27,7 +26,7 @@ export default function Home() {
           Our research delves deep into microbiology, focusing on groundbreaking studies
           like the discovery of new Mycobacterium species and innovative methods for biofilm disruption.
         </div>
-        <div>
+        <div className="row-start-2">
             <Image 
             src="/imgs/S10_P2.jpg"
             alt="Small Image"
@@ -36,8 +35,17 @@ export default function Home() {
             priority
             />
         </div>
-      </div>
-
     </div>
+    <div className="row-start-2 justify-items-start">
+          <div className="text-start">
+            <h1 className = "font-semibold">
+              The Dahl lab is currently researching:
+            </h1>
+              why Mycobacterium species are able to survive extended periods without 
+              nutrient access. 
+          </div>
+      </div>
+</div>
+
   );
 }
