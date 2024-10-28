@@ -4,9 +4,9 @@ import cv from "../app/lib/importCV";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[10px-1fr_10px] justify-items-center content-center w-full p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap">
-      <div className="object-contain row-start-1 row-end-2 items-start w-full h-auto max-w-[1344px] min-w-[854px]">
-        <div className="object-contain flex w-auto h-auto min-w-[200px]">
+    <div className="grid grid-rows justify-items-center content-center w-full h-auto p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap">
+{/* Main Image */}
+        <div className="object-contain flex w-auto h-auto min-w-[200px] row-start-1 row-end-2">
           <Link href={'/p/research'}>
             <Image
               src="/imgs/Forest.webp"
@@ -18,9 +18,8 @@ export default function Home() {
               />
           </Link>
         </div>
-      </div>
-      
-      <div className="flex flex-col row-start-1 w-auto h-auto max-w-[400px] gap-8 items-center">
+{/* Right Image */}
+      <div className="flex flex-col row-start-1 w-auto h-auto max-w-[400px] min-w-[100px] gap-8 items-center">
         <div className = "text-center">
           <h1 className = "font-semibold">
             Welcome to Professor John L. Dahl’s lab at the University of Minnesota Duluth!
@@ -37,7 +36,6 @@ export default function Home() {
             priority
             />
         </div>
-        
       </div>
 
     </div>

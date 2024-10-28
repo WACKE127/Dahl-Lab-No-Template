@@ -2,7 +2,7 @@ import cv from "../../lib/importCV";
 
 export default function Research() {
   return (
-    <div className="mt-8 px-8">
+    <div className="mt-8 px-8 mb-8">
       <h2 className="text-2xl font-bold">Publications</h2>
       <ul className="list-disc list-inside">
         {cv.publications.map((pub, index) => (
