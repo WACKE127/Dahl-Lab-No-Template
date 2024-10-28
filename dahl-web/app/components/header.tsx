@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Webheader: React.FC = () => {
   return (
-    <header className="bg-black py-[15px] w-full min-w-[1030px] overflow-hidden">
+    <header className="bg-black py-[15px] w-full min-h-[54px] overflow-hidden">
       <nav className="flex justify-center">
         <ul className="list-none flex gap-[30px] xs:gap-[10px]">
           <li><Link href="/" className="text-white no-underline font-bold hover:underline xs:text-xs">Home</Link></li>

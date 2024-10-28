@@ -1,50 +1,70 @@
-import Image from "next/image";
-import cv from "../../lib/importCV";
+// app/upload/page.tsx
+"use client";
 
-export default function Home() {
+import { useSession, signIn, signOut } from "next-auth/react";
+import React, { useState } from "react";
+
+const UploadPage = () => {
+  const { data: session, status } = useSession();
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+
+  if (status === "loading") {
+    return <p>Loading...</p>;
+  }
+
+  if (!session) {
+    return (
+      <div>
+        <p>Please sign in to upload your resume.</p>
+        <button onClick={() => signIn("google")}>Sign in with Google</button>
+      </div>
+    );
+  }
+
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.files?.[0]) {
+      setSelectedFile(event.target.files[0]);
+    }
+  };
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+
+    if (!selectedFile) {
+      alert("Please select a file.");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("resume", selectedFile);
+
+    const response = await fetch("/api/upload", {
+      method: "POST",
+      body: formData,
+    });
+
+    const result = await response.json();
+    alert(result.message);
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/imgs/Big_Bog.png"
-          alt="Big Bog"
-          width={180}
-          height={38}
-          priority
-        />
-        <Image
-          className="dark:invert"
-          src="/imgs/S1_P2.jpg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        {cv.education.postDoc && (
-          <section className="mt-8">
-            <h2 className="text-2xl font-bold">Postdoctoral Education</h2>
-            <p>
-              <strong>Degree:</strong> {cv.education.postDoc.degree}
-            </p>
-            <p>
-              <strong>Field:</strong> {cv.education.postDoc.field}
-            </p>
-            <p>
-              <strong>University:</strong> {cv.education.postDoc.university}
-            </p>
-            <p>
-              <strong>Location:</strong> {cv.education.postDoc.location}
-            </p>
-            <p>
-              <strong>Years:</strong> {cv.education.postDoc.startYear} - {cv.education.postDoc.endYear}
-            </p>
-          </section>
-        )}
-      </main>
+    <div>
+      <p>Signed in as {session.user?.email}</p>
+      <button onClick={() => signOut()}>Sign out</button>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      </footer>
+      <h1>Upload Your Resume</h1>
+      <form onSubmit={handleSubmit} encType="multipart/form-data">
+        <input
+          type="file"
+          name="resume"
+          accept=".doc,.docx,.pdf"
+          onChange={handleFileChange}
+          required
+        />
+        <button type="submit">Submit Resume</button>
+      </form>
     </div>
   );
-}
+};
+
+export default UploadPage;

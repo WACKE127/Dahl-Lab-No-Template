@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import React from 'react';
 import Webheader from './components/header';
+import { Providers } from "./components/providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,7 +39,9 @@ export default function RootLayout({
           <h1>
           </h1>
           <div>
+            <Providers>
             {children}
+            </Providers>
           </div>
         </body>
     </html>
