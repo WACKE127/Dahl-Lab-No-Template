@@ -5,10 +5,11 @@ import cv from "../app/lib/importCV";
 export default function Home() {
   return (
 // Grid 1
-    <div className="grid grid-rows-2 justify-items-center content-center w-full h-full max-h-[177vh] p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap object-contain">
+    <div className="grid grid-rows-2 justify-items-center content-center w-full h-full max-h-[177vh] p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap object-fill">
 {/* Main Image */} 
-        <Link href={'/p/research'} className="row-start-1 object-contain">
+        <Link href={'/p/research'} className="row-start-1 items-start">
           <Image
+            className="object-cover object-left h-full w-auto"
             src="/imgs/Forest.webp"
             alt="Big Bog"
             width={1344}
