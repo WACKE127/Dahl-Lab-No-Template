@@ -1,5 +1,9 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
+import AuthButton from '../components/authbutton';
+import { SessionProvider } from 'next-auth/react';
 // import styles from '../styles/header.module.css';
 
 const Webheader: React.FC = () => {
@@ -13,7 +17,13 @@ const Webheader: React.FC = () => {
           <li><Link href="/p/staff" className="text-white no-underline font-bold hover:underline xs:text-xs">Staff</Link></li>
           <li><Link href="/p/courses" className="text-white no-underline font-bold hover:underline xs:text-xs">Courses</Link></li>
           <li><Link href="/p/apply" className="text-white no-underline font-bold hover:underline xs:text-xs">Apply</Link></li>
+          <li>
+            <SessionProvider>
+              <AuthButton></AuthButton>
+            </SessionProvider>
+          </li>
         </ul>
+        
       </nav>
     </header>
   );

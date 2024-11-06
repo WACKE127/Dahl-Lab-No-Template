@@ -1,8 +1,8 @@
-// app/upload/page.tsx
 "use client";
 
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import React, { useState } from "react";
+import AuthButton from "../../components/authbutton";
 
 const UploadPage = () => {
   const { data: session, status } = useSession();
@@ -13,12 +13,7 @@ const UploadPage = () => {
   }
 
   if (!session) {
-    return (
-      <div>
-        <p>Please sign in to upload your resume.</p>
-        <button onClick={() => signIn("google")}>Sign in with Google</button>
-      </div>
-    );
+    return <AuthButton />;
   }
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,16 +36,23 @@ const UploadPage = () => {
     const response = await fetch("/api/upload", {
       method: "POST",
       body: formData,
+        // Handle errors
+    }).catch((error) => {
+      console.error("Error uploading file:", error);
+      alert("An error occurred while uploading the file.");
     });
 
-    const result = await response.json();
-    alert(result.message);
+    if (response && response.ok) {
+      const result = await response.json();
+      alert(result.message);
+    } else {
+      alert("Failed to upload the file.");
+    }
   };
 
   return (
     <div>
-      <p>Signed in as {session.user?.email}</p>
-      <button onClick={() => signOut()}>Sign out</button>
+      <AuthButton />
 
       <h1>Upload Your Resume</h1>
       <form onSubmit={handleSubmit} encType="multipart/form-data">
