@@ -19,7 +19,7 @@ const Webheader: React.FC = () => {
           <li><Link href="/p/apply" className="text-white no-underline font-bold hover:underline xs:text-xs">Apply</Link></li>
         </ul>
       </nav>
-      <div className="absolute right-0 top-0 flex items-center pr-4">
+      <div className="absolute left-[80%] top-[6px] flex items-center pr-4">
           <SessionProvider>
             <AuthButton></AuthButton>
           </SessionProvider>
