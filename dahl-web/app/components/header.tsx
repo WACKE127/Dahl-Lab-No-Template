@@ -8,7 +8,7 @@ import { SessionProvider } from 'next-auth/react';
 
 const Webheader: React.FC = () => {
   return (
-    <header className="bg-black py-[15px] w-[100%] min-h-[54px] overflow-hidden">
+    <header className="bg-black py-[15px] w-[100%] min-h-[54px] max-h-[54px] overflow-hidden">
       <nav className="flex justify-center">
         <ul className="list-none flex gap-[30px] xs:gap-[10px]">
           <li><Link href="/" className="text-white no-underline font-bold hover:underline xs:text-xs">Home</Link></li>
@@ -17,14 +17,13 @@ const Webheader: React.FC = () => {
           <li><Link href="/p/staff" className="text-white no-underline font-bold hover:underline xs:text-xs">Staff</Link></li>
           <li><Link href="/p/courses" className="text-white no-underline font-bold hover:underline xs:text-xs">Courses</Link></li>
           <li><Link href="/p/apply" className="text-white no-underline font-bold hover:underline xs:text-xs">Apply</Link></li>
-          <li>
-            <SessionProvider>
-              <AuthButton></AuthButton>
-            </SessionProvider>
-          </li>
         </ul>
-        
       </nav>
+      <div className="absolute right-0 top-0 flex items-center pr-4">
+          <SessionProvider>
+            <AuthButton></AuthButton>
+          </SessionProvider>
+        </div>
     </header>
   );
 };  
