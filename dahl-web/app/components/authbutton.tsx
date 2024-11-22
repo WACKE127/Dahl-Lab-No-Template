@@ -7,7 +7,7 @@ const AuthButton = () => {
 
   if (status === "loading") {
     return <button onClick={() => signIn("google")}> 
-    <div className = "">Sign-In <span aria-hidden="true">&rarr;</span></div> 
+    <div className = "items-center text-xs">Sign-In <span aria-hidden="true">&rarr;</span></div> 
   </button>
   }
 
@@ -16,13 +16,13 @@ const AuthButton = () => {
       {session ? (
         <>
           <button onClick={() => signOut()}> 
-            <div className = "">Sign-Out <span aria-hidden="true">&rarr;</span></div> 
+            <div className = "items-center text-xs">Sign-Out <span aria-hidden="true">&rarr;</span></div> 
           </button>
         </>
       ) : (
         <>
           <button onClick={() => signIn("google")}> 
-            <div className = "">Sign-In <span aria-hidden="true">&rarr;</span></div> 
+            <div className = "items-center text-xs">Sign-In <span aria-hidden="true">&rarr;</span></div> 
           </button>
         </>
       )}
