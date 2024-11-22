@@ -12,8 +12,8 @@ Todo:
 UPDATE header.module.css TO BE TAILWINDCSS instead of plain CSS
 POPULATE images.module.css
 POPULATE 
-    /app/p/apply
     /app/p/courses
     /app/p/publications
     /app/p/research
     /app/p/staff
+HANDLE application uploads

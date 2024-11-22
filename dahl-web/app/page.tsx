@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import cv from "../app/lib/importCV";
 
 export default function Home() {
   return (
