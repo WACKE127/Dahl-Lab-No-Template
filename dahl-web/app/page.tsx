@@ -36,15 +36,6 @@ export default function Home() {
             />
         </div>
     </div>
-    {/* <div className="row-start-2 justify-items-start">
-          <div className="text-start">
-            <h1 className = "font-semibold">
-              The Dahl lab is currently researching:
-            </h1>
-              why Mycobacterium species are able to survive extended periods without 
-              nutrient access. 
-          </div>
-      </div> */}
 </div>
 
   );
