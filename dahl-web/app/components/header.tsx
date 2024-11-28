@@ -12,7 +12,7 @@ const Webheader: React.FC = () => {
         <nav className="bg-white mx-auto flex w-full items-center justify-between px-8 py-5 lg:px-8 overflow-hidden shadow-md">
           <div className="justify-start flex w-24">
             <Link href="/" className="flex gap-[1px] items-center font-bold">
-              <img className="h-8 w-8" src="../imgs/icon.ico" alt="Dahl Logo"></img>
+              <img className="h-8 w-8" src="../../imgs/icon.ico" alt="Dahl Logo"></img>
               {/* <div>ahl Lab</div> */}
             </Link>
           </div>
