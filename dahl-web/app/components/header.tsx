@@ -17,15 +17,15 @@ const Webheader: React.FC = () => {
             </Link>
           </div>
           
-          <ul className="justify-center list-none flex gap-[30px] xs:gap-[10px]">
-            <li><Link href="/p/research" className="text-black no-underline font-bold hover:underline xs:text-xs">Research</Link></li>
-            <li><Link href="/p/publications" className="text-black no-underline font-bold hover:underline xs:text-xs">Publications</Link></li>
-            <li><Link href="/p/staff" className="text-black no-underline font-bold hover:underline xs:text-xs">Staff</Link></li>
-            <li><Link href="/p/courses" className="text-black no-underline font-bold hover:underline xs:text-xs">Courses</Link></li>
-            <li><Link href="/p/apply" className="text-black no-underline font-bold hover:underline xs:text-xs">Apply</Link></li>
+          <ul className="justify-center list-none flex gap-[30px] xs:gap-[10px] text-black no-underline font-light xs:text-xs font-family['__geistSans_1e4310']">
+            <li><Link href="/p/research" className="hover:underline">Research</Link></li>
+            <li><Link href="/p/publications" className="hover:underline">Publications</Link></li>
+            <li><Link href="/p/staff" className="hover:underline">Staff</Link></li>
+            <li><Link href="/p/courses" className="hover:underline">Courses</Link></li>
+            <li><Link href="/p/apply" className="hover:underline">Apply</Link></li>
           </ul>
           
-          <div className="flex justify-end pr-2 h-8 w-24 items-center font-bold text-black">
+          <div className="flex justify-end pr-2 h-8 w-24 items-center font-bold text-black hover:underline">
             <SessionProvider>
               <AuthButton></AuthButton>
             </SessionProvider>
