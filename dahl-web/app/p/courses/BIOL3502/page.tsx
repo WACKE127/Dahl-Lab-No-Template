@@ -1,53 +1,227 @@
 export default function Home() {
     return (
-    <div className="grid grid-rows-1 justify-items-center content-center w-full h-auto max-h-[90vh] p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans) overflow-hidden] text-wrap flex flex-wrap object-fill">
-        <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-                <div className="lg:pr-4">
-                    <div className="lg:max-w-lg">
-                    <p className="text-base/7 font-semibold text-indigo-600">Deploy faster</p>
-                    <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">A better workflow</h1>
-                    <p className="mt-6 text-xl/8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
-                    </div>
+      <div className="grid grid-rows-1 justify-items-center content-center w-full h-auto max-h-screen p-8 pb-8 gap-8 font-[family-name:var(--font-geist-sans)] overflow-visible text-wrap flex flex-wrap object-fill">
+        <div className="relative isolate overflow-auto bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+  
+            {/* Left Column: Course Information */}
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+              <div className="lg:pr-4">
+                <div className="lg:max-w-lg">
+                  {/* Course Title and Intro */}
+                  <p className="text-base/7 font-semibold text-indigo-600">
+                    BIOL 3502 – General Microbiology
+                  </p>
+                  <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                    Spring 2025 Syllabus Overview
+                  </h1>
+                  <p className="mt-6 text-xl/8 text-gray-700">
+                    Welcome to General Microbiology! Below you’ll find essential
+                    information about lectures, labs, grading, policies, and
+                    objectives for this course. Please review thoroughly.
+                  </p>
                 </div>
-                </div>
-                <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="https://tailwindui.com/plus/img/component-images/dark-project-app-screenshot.png" alt=""></img>
-                </div>
-                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-                <div className="lg:pr-4">
-                    <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
-                    <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
-                    <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                        <li className="flex gap-x-3">
-                        <svg className="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path fillRule="evenodd" d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z" clipRule="evenodd" />
-                        </svg>
-                        <span><strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</span>
-                        </li>
-                        <li className="flex gap-x-3">
-                        <svg className="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path fillRule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clipRule="evenodd" />
-                        </svg>
-                        <span><strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
-                        </li>
-                        <li className="flex gap-x-3">
-                        <svg className="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
-                            <path fillRule="evenodd" d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z" clipRule="evenodd" />
-                        </svg>
-                        <span><strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
-                        </li>
-                    </ul>
-                    <p className="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
-                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
-                    <p className="mt-6">Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
-                    </div>
-                </div>
-                </div>
+              </div>
             </div>
+  
+            {/* Right Column: Sidebar (Replaces Image) */}
+            <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+              <div className="w-[48rem] max-w-none rounded-xl bg-gray-100 shadow-xl ring-1 ring-gray-400/10 sm:w-[35rem] p-6">
+                <h2 className="text-lg font-semibold text-gray-900 mb-4">
+                  Related Materials
+                </h2>
+                <ul className="space-y-3 list-disc list-inside text-gray-700">
+                  <li>
+                    <a
+                      href="https://openstax.org/details/books/microbiology/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 underline"
+                    >
+                      OpenStax Microbiology (Required)
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.amazon.com/Microbe-Hunters-Paul-Kruif/dp/0156027771"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 underline"
+                    >
+                      Microbe Hunters by Paul de Kruif (Required)
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.amazon.com/Mountains-Beyond-Tracy-Kidder/dp/0812980557"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 underline"
+                    >
+                      Mountains Beyond Mountains by Tracy Kidder (Required)
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.pearson.com/us/higher-education/program/Johnson-Laboratory-Experiments-in-Microbiology-12th-Edition/PGM1226228.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 underline"
+                    >
+                      Laboratory Experiments in Microbiology (12th Edition)
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://docs.google.com/document/d/1fg_VbLA4Mr7wj044nn7g8egxvL031g9S/edit?usp=sharing&ouid=108310580263416976199&rtpof=true&sd=true"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 underline"
+                    >
+                      Lecture and Lab Syllabus
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            {/* Main Course Details */}
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+              <div className="lg:pr-4">
+                <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
+                  {/* Instructor & Logistics */}
+                  <h2 className="text-2xl font-bold tracking-tight text-gray-900 mb-4">
+                    Instructor & Logistics
+                  </h2>
+                  <p>
+                    <strong>Instructor:</strong> Dr. John Dahl (Swenson Science
+                    Building 152A, 726-6614, Email:{" "}
+                    <a
+                      href="mailto:jldahl@d.umn.edu"
+                      className="text-indigo-600 underline"
+                    >
+                      jldahl@d.umn.edu
+                    </a>
+                    )<br />
+                    <strong>Office Hours:</strong> Evenings via Zoom (TBD)
+                  </p>
+                  <p className="mt-4">
+                    <strong>Lectures:</strong> Mondays & Wednesdays, 3:00 – 3:50
+                    pm, Alworth Hall 195 (recordings posted on Canvas)
+                    <br />
+                    <strong>Lab:</strong> Tuesdays & Thursdays (in-person),
+                    Swenson Science Building 208
+                  </p>
+                  <p className="mt-4">
+                    Attendance in laboratory is <em>mandatory</em>. Five or more
+                    absences (excused or unexcused) result in a non-passing final
+                    grade. Missed labs must be made up in consultation with your
+                    TA.
+                  </p>
+  
+                  {/* Grading Section */}
+                  <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+                    Grading Overview
+                  </h2>
+                  <p className="mt-4">
+                    <strong>Course Grade Breakdown:</strong>
+                  </p>
+                  <ul role="list" className="mt-4 space-y-3 text-gray-600 list-disc list-inside">
+                    <li>
+                      40% – Four lecture exams (includes the final, 100 pts each)
+                    </li>
+                    <li>10% – Online quizzes (Microbe Hunters)</li>
+                    <li>10% – Online quizzes (Mountains Beyond Mountains)</li>
+                    <li>35% – Laboratory activities</li>
+                    <li>5% – Professionalism</li>
+                  </ul>
+                  <p className="mt-4">
+                    <strong>Final Exam Date:</strong> Friday, May 6th, 2:00–3:50
+                    p.m. Plan travel accordingly—no early finals given.
+                  </p>
+  
+                  {/* Course Objectives */}
+                  <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+                    Course Objectives
+                  </h2>
+                  <p className="mt-4">
+                    This course provides fundamental training in Microbiology and
+                    fosters a lifelong thirst for more information on the topic.
+                    Learning goals include:
+                  </p>
+                  <ul role="list" className="mt-4 space-y-3 text-gray-600 list-disc list-inside">
+                    <li>
+                      Understanding bacterial cell structure and metabolic
+                      capabilities
+                    </li>
+                    <li>
+                      Mastering laboratory techniques (sterile technique,
+                      bacterial identification, microscopy)
+                    </li>
+                    <li>
+                      Learning methods for controlling bacterial growth
+                    </li>
+                    <li>
+                      Differentiating between commensal (“good”) and pathogenic
+                      (“bad”) microbes
+                    </li>
+                    <li>
+                      Gaining insight into the immune system’s constant protective
+                      mechanisms
+                    </li>
+                    <li>
+                      Recognizing microbial roles in symbiotic relationships and
+                      nutrient cycling
+                    </li>
+                  </ul>
+  
+                  {/* Important Policies */}
+                  <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+                    Important Policies & Info
+                  </h2>
+                  <p className="mt-4">
+                    <strong>Attendance:</strong> Lecture attendance is highly
+                    encouraged; lab attendance is mandatory.
+                  </p>
+                  <p className="mt-4">
+                    <strong>Email Policy:</strong> Use “BIOL 3502–YourName–Purpose”
+                    in the subject line.
+                  </p>
+                  <p className="mt-4">
+                    <strong>Academic Integrity:</strong> Cheating results in an
+                    automatic zero for the exam or assignment. All incidents are
+                    reported to the academic integrity officer.
+                  </p>
+                  <p className="mt-4">
+                    <strong>Students with Disabilities:</strong> Accommodations
+                    are available—please inform the instructor early.
+                  </p>
+                  <p className="mt-4">
+                    <strong>Equal Opportunity:</strong> The University of
+                    Minnesota prohibits discrimination. Concerns can be raised
+                    confidentially with the Department Head.
+                  </p>
+                  <p className="mt-4">
+                    <strong>Student Conduct:</strong> Follow the Student Conduct
+                    Code. Disruptive behavior or misuse of technology may result
+                    in removal from class.
+                  </p>
+  
+                  {/* Closing Statement */}
+                  <h2 className="mt-8 text-xl font-bold tracking-tight text-gray-900">
+                    Let’s Have a Great Semester!
+                  </h2>
+                  <p className="mt-4 mb-8">
+                    Our goal is to cultivate your understanding of the microbial
+                    world. Be proactive in labs, stay curious, and don’t hesitate
+                    to reach out with any questions. Welcome to BIOL 3502!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     );
-}
+  }
+  

@@ -25,7 +25,7 @@ const Webheader: React.FC = () => {
             <li><Link href="/p/apply" className="hover:underline">Apply</Link></li>
           </ul>
           
-          <div className="flex justify-end pr-2 h-8 items-center text-black hover:underline">
+          <div className="flex justify-end pr-2 h-8 items-center w-24 text-black hover:underline">
             <SessionProvider>
               <AuthButton></AuthButton>
             </SessionProvider>
