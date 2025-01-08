@@ -61,6 +61,8 @@ export default function Home() {
             <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Class focusing on microbes causing human disease, their pathogenesis, and host interactions. Study diagnostic methods, treatment, and prevention. Emphasis placed upon clinical case studies.</p>
           </div>
         </article>
+
+        
       </div>
     </div>
   </div>

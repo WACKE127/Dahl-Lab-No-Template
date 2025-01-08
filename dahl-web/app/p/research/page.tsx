@@ -3,48 +3,32 @@ import cv from "../../lib/importCV";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/imgs/Big_Bog.png"
-          alt="Big Bog"
-          width={180}
-          height={38}
-          priority
-        />
-        <Image
-          className="dark:invert"
-          src="/imgs/S1_P2.jpg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        {cv.education.postDoc && (
-          <section className="mt-8">
-            <h2 className="text-2xl font-bold">Postdoctoral Education</h2>
-            <p>
-              <strong>Degree:</strong> {cv.education.postDoc.degree}
-            </p>
-            <p>
-              <strong>Field:</strong> {cv.education.postDoc.field}
-            </p>
-            <p>
-              <strong>University:</strong> {cv.education.postDoc.university}
-            </p>
-            <p>
-              <strong>Location:</strong> {cv.education.postDoc.location}
-            </p>
-            <p>
-              <strong>Years:</strong> {cv.education.postDoc.startYear} - {cv.education.postDoc.endYear}
-            </p>
-          </section>
-        )}
-      </main>
+    <section>
+    <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
+        <div className="md:col-span-3">
+          <img
+            src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="rounded"
+            alt=""
+          />
+        </div>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      </footer>
+        <div className="md:col-span-1">
+          <div className="max-w-lg md:max-w-none">
+            <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+
+            <p className="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe
+              architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas
+              sequi.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    </section>
   );
 }
