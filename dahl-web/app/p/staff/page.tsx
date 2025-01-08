@@ -36,7 +36,7 @@ export default function Home() {
                   />
                 </svg>
             
-                <h2 className="mt-4 text-xl font-medium sm:text-2xl">John Dahl</h2>
+                <h2 className="mt-4 text-xl font-medium sm:text-2xl">Dr. John Dahl</h2>
               </div>
             
               <div
@@ -78,17 +78,16 @@ export default function Home() {
                   />
                 </svg>
             
-                <h2 className="mt-4 text-xl font-medium sm:text-2xl">Go around the world</h2>
+                <h2 className="mt-4 text-xl font-medium sm:text-2xl">Tyler Wacker</h2>
               </div>
             
               <div
                 className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
               >
-                <h3 className="mt-4 text-xl font-medium sm:text-2xl">Go around the world</h3>
+                <h3 className="mt-4 text-xl font-medium sm:text-2xl">Tyler Wacker</h3>
             
                 <p className="mt-4 text-sm sm:text-base">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem
-                  omnis atque culpa repellendus.
+                  Research Associate and Web Developer. Pursuing a B.A. in Human Biology with graduate prospects in Pharmacy and Data Science. ProfProf cofounder.
                 </p>
             
                 <p className="mt-8 font-bold">Read more</p>
