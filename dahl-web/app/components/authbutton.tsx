@@ -7,8 +7,8 @@ const AuthButton = () => {
 
   if (status === "loading") {
     return <button onClick={() => signIn("google")}> 
-    <div className = "rounded-md bg-blue-500 px-5 py-2.5 text-sm font-medium text-white shadow">Sign-In <span aria-hidden="true"></span></div> 
-  </button>
+            <div className = "rounded-md bg-sky-500 px-5 py-2.5 text-sm font-medium text-white shadow">Login <span aria-hidden="true"></span></div> 
+           </button>
   }
 
   return (
@@ -16,13 +16,13 @@ const AuthButton = () => {
       {session ? (
         <>
           <button onClick={() => signOut()}> 
-            <div className = "rounded-md bg-blue-500 px-5 py-2.5 text-sm font-medium text-white shadow">Sign-Out <span aria-hidden="true"></span></div> 
+            <div className = "rounded-md bg-sky-500 px-5 py-2.5 text-sm font-medium text-white shadow">Logout <span aria-hidden="true"></span></div> 
           </button>
         </>
       ) : (
         <>
           <button onClick={() => signIn("google")}> 
-            <div className = "rounded-md bg-blue-500 px-5 py-2.5 text-sm font-medium text-white shadow">Sign-In <span aria-hidden="true"></span></div> 
+            <div className = "rounded-md bg-sky-500 px-5 py-2.5 text-sm font-medium text-white shadow">Login <span aria-hidden="true"></span></div> 
           </button>
         </>
       )}
